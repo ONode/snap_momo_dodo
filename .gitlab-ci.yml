@@ -1,3 +1,28 @@
+
+# GitLab CI Docker Image
+image: node:5.9.1
+# Build - Build necessary JS files
+# Test - Run tests
+# Deploy - Deploy application to S3/ElasticBeanstalk
+stages:
+  - build
+  - test
+  - deploy
+
+# Configuration
+variables:
+  AWS_ACCESS_KEY_ID: "" # Should have access to both S3/EB
+  AWS_SECRET_ACCESS_KEY: ""
+  AWS_DEFAULT_REGION: "us-east-1" # Or, wherever you are
+  EB_APP_NAME: "" # ElasticBeanstalk Application Name
+  EB_APP_ENV: "" # ElasticBeanstalk Application Environment
+  S3_BUCKET: "" # S3 bucket for ElasticBeanstalk
+  S3_KEY: "" # S3 folder to upload built app
+
+cache:
+  paths:
+  - node_modules/
+
 test:
   script:
   # this configures django application to use attached postgres database that is run on `postgres` host
