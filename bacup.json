@@ -1,0 +1,39 @@
+{
+  "name": "momodeejay",
+  "version": "2.2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "keystone": "https://github.com/keystonejs/keystone.git",
+    "mongoose-deep-populate": "^3.0.0",
+    "keystone-live": "^0.1.17",
+    "restful-keystone-onode": "^0.2.1",
+    "async": "2.0.0-rc.3",
+    "moment": "^2.12.0",
+    "csv": "^0.4.6",
+    "crypto-js": "3.1.6",
+    "hkm-simple-vercheck": "0.0.6",
+    "dotenv": "2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "eslint": "2.11.1",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-engine": "0.2.0",
+    "eslint-plugin-import": "1.8.1",
+    "eslint-plugin-jsx-a11y": "1.2.2",
+    "eslint-plugin-react": "5.1.1",
+    "gulp": "3.5.2",
+    "jshint": "^2.9.2",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "start": "node keystone.js",
+    "web": "node web",
+    "lint": "standard",
+    "test": "mocha test/"
+  }
+}

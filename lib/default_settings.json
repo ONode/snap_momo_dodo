@@ -1,0 +1,46 @@
+{
+  "admins": [
+    {
+      "email": "admin@141.com",
+      "password": "demo",
+      "name": {
+        "first": "sexy",
+        "last": "admin"
+      },
+      "isAdmin": true,
+      "isProtected": true
+    },
+    {
+      "email": "eric@tor2kowk.com",
+      "password": "demo",
+      "name": {
+        "first": "eric",
+        "last": "admin"
+      },
+      "isAdmin": true,
+      "isProtected": true
+    }
+  ],
+  "roles": [
+    {
+      "name": "Client",
+      "ref": "traveler"
+    },
+    {
+      "name": "Driver",
+      "ref": "driver"
+    },
+    {
+      "name": "Administrator",
+      "ref": "administrator"
+    },
+    {
+      "name": "Entertainer",
+      "ref": "performer"
+    },
+    {
+      "name": "Editor",
+      "ref": "editor"
+    }
+  ]
+}
