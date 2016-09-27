@@ -11,9 +11,6 @@ const main_con = require('./lib/configinit.json');
 // Initialise Keystone with your project's configuration.
 // See http://keystonejs.com/guide/config for available options
 // and documentation.
-//"jwtTokenSecret": "234Ufs(99#@@#*&@9F9855456460V"
-//"ga property": process.env.GA_PROPERTY,
-//"ga domain": process.env.GA_DOMAIN,
 //"chartbeat property": process.env.CHARTBEAT_PROPERTY,
 //"chartbeat domain": process.env.CHARTBEAT_DOMAIN
 keystone.init(main_con);
@@ -56,5 +53,5 @@ keystone.set('routes', require('./routes'));
 //keystone.set('resty api base address', "/api");
 //keystone.set('resty meta location', "./models");
 //keystone.set('resty token header', "api-token");
-keystone.set('jwtTokenSecret', '234U~s(99#@@#*&@9F9_GG^EB3-5646=0V'); // put in something hard to guess
+keystone.set('jwtTokenSecret', '23453IH(*V)A(S)D-03-2V'); // put in something hard to guess
 keystone.start();

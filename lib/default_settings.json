@@ -1,7 +1,7 @@
 {
   "admins": [
     {
-      "email": "admin@141.com",
+      "email": "admin@747.com",
       "password": "demo",
       "name": {
         "first": "sexy",
@@ -11,7 +11,7 @@
       "isProtected": true
     },
     {
-      "email": "eric@tor2kowk.com",
+      "email": "kwok@747.com",
       "password": "demo",
       "name": {
         "first": "eric",

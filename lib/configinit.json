@@ -1,6 +1,6 @@
 {
-  "name": "青森旅行から帰ってきた翌日",
-  "brand": "豚旨うま屋ラーメン中川店",
+  "name": "野豬騎士來喔",
+  "brand": "夜色2016嗨版",
   "less": "public",
   "admin path": "admiral",
   "static": "public",
@@ -11,7 +11,7 @@
   "session": true,
   "auth": true,
   "user model": "User",
-  "cookie secret": "4yA`pC]_G=x?r.M%252*fn}i.$=aGsZE~{r~xX-dt!pQ;pOIcUZ(23i9+S79BA$g",
+  "cookie secret": "cP$2Z[l3V53[{c7w7O$3s%jQdyBG7HOzp2*Xff6,01%Q}#cl85yBnTc8i~1579'",
   "auto update": true,
   "item_status": [
     "draft",
